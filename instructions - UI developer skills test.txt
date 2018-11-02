@@ -1,0 +1,19 @@
+UI Developer Skills Test
+
+Objective:
+Your task is to design and build a landing page for a fictitious client. Some graphic assets have been provided to get you started, as well as Bootstrap to use as needed. Take the time you need, but this is meant to be a relatively small exercise that could be completed in an evening or two. It is time to let your design and front-end development skills shine!
+
+What we are looking for:
+Responsive. The site should be usable and look nice on small (mobile) screens all the way up to large (desktop) screens.
+Accessible. Shoot for a WCAG AA compliance.
+Cross browser. The site should display correctly in IE11, latest versions of Edge, Chrome, Firefox, Safari, iOS Safari and Chrome on Android.
+Modular. Well structured, HTML and CSS built with reuse and maintainability in mind. This is more important than a bunch of flashy CSS tricks.
+Solid design. Spacing, colors, fonts, and page hierarchy should be used effectively to create a pleasing and effective layout.
+
+What to deliver:
+Once you have a landing page in a good place, simply send us a link to a GIT repo, or send us a ZIP of all the HTML, CSS, JS, and other assets for the page. You can also provide a test URL of the page if you want, but that isn’t required.
+
+What to expect:
+Once we have a chance to review your submission, we will get back to you with feedback. We will make every effort to be timely in our review. No one likes to be left wondering, so we will provide comments on your work regardless of whether you are finally selected for the position.
+
+Thank you for taking the time to show us your skills, and have fun!

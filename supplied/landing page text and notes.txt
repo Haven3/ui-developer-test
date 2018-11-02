@@ -1,0 +1,38 @@
+Details from the “client”:
+The purpose of this landing page is to raise awareness of our cause, and get people to register for the upcoming event.
+
+Copy for the landing page:
+
+Save the Potholes
+
+Our mission is to preserve and protect the fragile pothole ecosystem. In addition to providing essential habitat for traffic cones and migratory hubcaps, we believe the underappreciated beauty of potholes add texture to all our lives. Can you imagine a world without potholes?
+
+Join us for our 17th annual hole spotting tour!
+April 1, 2019 from 4:00 - 6:00 pm
+We will meet at the Quartzite Rock Association for a brief presentation from our founder, and tour as a group from there. Neck braces will be available for those who need them. A great time for adventurous people of all ages.
+Register Today
+
+Self-guided tours. Download topographic maps of the potholes in your area, and discover hidden gems right down the street.
+
+Potholes threatened! Learn more about repair crews and other challenges faced by this amazing ecosystem.
+
+Join the cause! Potholes may be resilient, coming back year after year, but they need your help to remain a constant part of our lives.
+
+Save the Potholes
+231 S. Phillips Ave. #200
+Sioux Falls, SD 57104
+chuck@savethepotholes.org
+
+Social media icons
+
+©2018 Save the Potholes. All rights reserved.
+
+Notes:
+
+We will need a donate button and sharing links for the social networks on the page somewhere as well. A rough wireframe has been included to show an idea of page structure. This is a guide more than anything carved in stone.
+
+A logo and some photos have been included. Use what you need to make us look good.
+
+Our official colors are:
+Dark blue #314F71
+Orange #E4731E
