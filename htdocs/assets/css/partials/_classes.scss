@@ -1,0 +1,33 @@
+/*buttons*/
+.btn-accent {
+  background-color: $accent-color;
+  border-color: $accent-color;
+  color: $dark-color;
+  -webkit-transition: all $hover-time;
+  transition: all $hover-time;
+
+  &:hover {
+    background-color: $light-color;
+    color: $dark-color;
+  }
+}
+
+/*background*/
+.bg-color-primary {
+  background-color: $primary-color;
+}
+
+.bg-primary-transparent {
+  background-color: $primary-transparent-color;
+}
+
+.bg-light-transparent {
+  background-color: $light-transparent-color;
+}
+
+/*text*/
+.body-text {
+  font-family: $body;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}

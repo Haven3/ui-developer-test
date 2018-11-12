@@ -1,0 +1,23 @@
+#hero {
+  background-image: url("../media/images/beautiful-pothole-in-the-road.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: calc(100vh - 5rem);
+
+  @media (min-width: $sm) {
+    height: calc(100vh - 3.5rem);
+  }
+
+  @media (min-width: $md) {
+    height: calc(100vh - 4rem);
+  }
+
+  @media (min-width: $lg) {
+    height: calc(100vh - 5rem);
+  }
+
+  @media (min-width: $xl) {
+    height: calc(100vh - 5.5rem);
+  }
+}

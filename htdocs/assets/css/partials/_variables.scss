@@ -1,13 +1,27 @@
 /*Color*/
+$transparancy: .85;
 $primary-color: #314F71;
+$primary-transparent-color: rgba($primary-color, $transparancy);
 $secondary-color: #325172;
 $accent-color: #E4731E;
 $light-color: #FAE9DD;
+$light-transparent-color: rgba($light-color, $transparancy);
 $dark-color: #252729;
+
+/*border radius*/
+$border-radius: .3rem;
 
 /*text*/
 $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
+$base-font-size: 1.25rem;
+$base-line-height: 1.5;
 
 /*transition time*/
 $hover-time: .25s;
+
+/*resize breakpoints*/
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
