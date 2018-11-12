@@ -1,12 +1,13 @@
 /*Color*/
-$transparancy: .85;
+$transparency: .85;
 $primary-color: #314F71;
-$primary-transparent-color: rgba($primary-color, $transparancy);
+$primary-transparent-color: rgba($primary-color, $transparency);
 $secondary-color: #325172;
 $accent-color: #E4731E;
 $light-color: #F9F9F9;
-$light-transparent-color: rgba($light-color, $transparancy);
+$light-transparent-color: rgba($light-color, $transparency);
 $dark-color: #252729;
+$dark-transparent-color: rgba($dark-color, $transparency);
 
 /*border radius*/
 $border-radius: .3rem;

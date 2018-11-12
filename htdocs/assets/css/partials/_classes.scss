@@ -12,6 +12,19 @@
   }
 }
 
+.btn-light {
+  background-color: $light-color;
+  border-color: $light-color;
+  color: $primary-color;
+}
+
+@media (max-width: $sm) {
+    .btn-fullwidth-mobile {
+      width: 100%;
+      text-align: center;
+  }
+}
+
 /*background*/
 .bg-color-primary {
   background-color: $primary-color;
