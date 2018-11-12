@@ -4,7 +4,7 @@ $primary-color: #314F71;
 $primary-transparent-color: rgba($primary-color, $transparancy);
 $secondary-color: #325172;
 $accent-color: #E4731E;
-$light-color: #FAE9DD;
+$light-color: #F9F9F9;
 $light-transparent-color: rgba($light-color, $transparancy);
 $dark-color: #252729;
 
@@ -16,6 +16,12 @@ $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
 $base-font-size: 1.25rem;
 $base-line-height: 1.5;
+
+/*shadows*/
+@mixin shadow {
+-webkit-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+}
 
 /*transition time*/
 $hover-time: .25s;

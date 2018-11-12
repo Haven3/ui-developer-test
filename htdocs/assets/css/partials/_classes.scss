@@ -21,6 +21,14 @@
   background-color: $primary-transparent-color;
 }
 
+.bg-dark {
+  background-color: $dark-color !important;
+}
+
+.bg-light {
+  background-color: $light-color !important;
+}
+
 .bg-light-transparent {
   background-color: $light-transparent-color;
 }
@@ -30,4 +38,18 @@
   font-family: $body;
   font-size: $base-font-size;
   line-height: $base-line-height;
+}
+
+/*shadows*/
+.shadow {
+  @include shadow;
+}
+
+/*borders*/
+.border-radius {
+  border-radius: $border-radius !important;
+}
+
+.border-light-color {
+  border-color: darken($light-color, 10%);
 }
