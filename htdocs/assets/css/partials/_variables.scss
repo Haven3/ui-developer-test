@@ -3,8 +3,11 @@ $primary-color: #314F71;
 $secondary-color: #325172;
 $accent-color: #E4731E;
 $light-color: #FAE9DD;
-$dark-color: #000;
+$dark-color: #252729;
 
 /*text*/
 $heading: 'Roboto Slab', serif;
 $body: 'Lato', sans-serif;
+
+/*transition time*/
+$hover-time: .25s;

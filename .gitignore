@@ -32,3 +32,6 @@ ansible.log
 /Project
 /archives
 /conf
+
+# Partial file minifications
+_*.min.css

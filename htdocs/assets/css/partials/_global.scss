@@ -1,8 +1,23 @@
 body {
   font-family: $body;
-  color: dark;
+  color: $dark-color;
 }
 
+/*text*/
 a {
   text-decoration: none;
+}
+
+/*buttons*/
+.btn-accent {
+  background-color: $accent-color;
+  border-color: $accent-color;
+  color: $light-color;
+  -webkit-transition: all $hover-time;
+  transition: all $hover-time;
+
+  &:hover {
+    background-color: $light-color;
+    color: $accent-color;
+  }
 }
