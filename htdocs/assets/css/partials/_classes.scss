@@ -163,3 +163,8 @@ a.social-link {
 .border-light-color {
   border-color: darken($light-color, 10%);
 }
+
+/*animations*/
+.fade-in {
+  opacity: 0;
+}
