@@ -1,0 +1,36 @@
+/*Color*/
+$transparency: .95;
+$primary-color: #314F71;
+$primary-transparent-color: rgba($primary-color, $transparency);
+$secondary-color: #325172;
+$accent-color: #E4731E;
+$accent-color-dark: #d23100;
+$light-color: #F9F9F9;
+$light-transparent-color: rgba($light-color, $transparency);
+$dark-color: #252729;
+$dark-transparent-color: rgba($dark-color, $transparency);
+$extra-dark-color: darken($dark-color, 5%);
+
+/*border radius*/
+$border-radius: .3rem;
+
+/*text*/
+$heading: 'Lato', sans-serif;
+$body: 'Lato', sans-serif;
+$base-font-size: 1.25rem;
+$base-line-height: 1.5;
+
+/*shadows*/
+@mixin shadow {
+-webkit-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+}
+
+/*transition time*/
+$hover-time: .25s;
+
+/*resize breakpoints*/
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;

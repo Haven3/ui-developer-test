@@ -1,0 +1,17 @@
+body {
+  background-color: $light-color;
+  font-family: $body;
+  color: $dark-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+a {
+  text-decoration: none;
+  color: $accent-color;
+
+  &:hover {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}

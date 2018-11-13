@@ -1,0 +1,48 @@
+.more-info-block {
+  padding: 1.5rem 1rem;
+  min-height: 100%;
+  background-color: $primary-transparent-color;
+  color: $light-color;
+  border-bottom: 1px solid $light-color;
+
+  @media (min-width: $sm) {
+    border-bottom: none;
+  }
+
+  @media (min-width: $lg) {
+    min-height: 0;
+  }
+}
+
+@media (min-width: $sm) {
+
+  #more-info > .more-info-wrapper {
+    height: 50vw;
+    max-height: 500px;
+    min-height: 300px;
+  }
+
+  #self-guided-tours {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .25)), to(rgba(0, 0, 0, .25))), url("../media/images/pothole-tourists.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("../media/images/pothole-tourists.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #potholes-threatened {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .45)), to(rgba(0, 0, 0, .45))), url("../media/images/road-construction-team.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../media/images/road-construction-team.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #join-the-cause {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .45)), to(rgba(0, 0, 0, .45))), url("../media/images/pothole-prep.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url("../media/images/pothole-prep.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
