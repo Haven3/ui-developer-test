@@ -42,6 +42,10 @@
   background-color: $extra-dark-color;
 }
 
+.bg-medium {
+  background-color: darken($light-color, 5%);
+}
+
 .bg-light {
   background-color: $light-color !important;
 }
