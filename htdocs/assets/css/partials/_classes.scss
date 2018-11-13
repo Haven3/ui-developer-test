@@ -55,6 +55,14 @@
   color: $light-color !important;
 }
 
+.text-primary {
+  color: $primary-color !important;
+}
+
+.text-accent {
+  color: $accent-color;
+}
+
 .body-text {
   font-family: $body;
   font-size: $base-font-size;
