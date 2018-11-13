@@ -1,13 +1,16 @@
 .more-info-block {
   padding: 1.5rem 1rem;
   min-height: 100%;
-  background-color: $primary-color;
+  background-color: $primary-transparent-color;
   color: $light-color;
   border-bottom: 1px solid $light-color;
 
   @media (min-width: $sm) {
-    min-height: 0;
     border-bottom: none;
+  }
+
+  @media (min-width: $lg) {
+    min-height: 0;
   }
 }
 

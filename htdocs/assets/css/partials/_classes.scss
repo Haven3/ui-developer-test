@@ -1,14 +1,29 @@
 /*buttons*/
 .btn-accent {
-  background-color: $accent-color;
+  background-color: transparent;
   border-color: $accent-color;
-  color: $dark-color;
+  color: $accent-color;
   -webkit-transition: all $hover-time;
   transition: all $hover-time;
 
   &:hover {
-    background-color: $light-color;
-    color: $dark-color;
+    background-color: transparent;
+    color: $light-color;
+    border-color: $light-color;
+  }
+}
+
+.btn-accent-secondary {
+  background-color: $accent-color-dark;
+  border-color: $accent-color-dark;
+  color: $light-color;
+  -webkit-transition: all $hover-time;
+  transition: all $hover-time;
+
+  &:hover {
+    background-color: transparent;
+    color: $accent-color-dark;
+    border-color: $accent-color-dark;
   }
 }
 
@@ -16,6 +31,12 @@
   background-color: $light-color;
   border-color: $light-color;
   color: $primary-color;
+
+  &:hover {
+    background-color: $dark-color;
+    border-color: $dark-color;
+    color: $light-color;
+  }
 }
 
 @media (max-width: $sm) {
@@ -95,6 +116,38 @@ a.social-link {
     color: $light-color;
     border-color: $light-color;
   }
+}
+
+/*focus*/
+.form-control:focus {
+    color: $accent-color;
+    background-color: #fff;
+    border-color: $accent-color;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
+            box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
+}
+
+.btn-accent:focus {
+  background-color: transparent;
+  color: $light-color;
+  border-color: $light-color;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
+          box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
+}
+
+.btn-accent-secondary:focus {
+  background-color: transparent;
+  color: $accent-color-dark;
+  border-color: $accent-color-dark;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba($accent-color-dark, .45);
+          box-shadow: 0 0 0 0.2rem rgba($accent-color-dark, .45);
+}
+
+.btn-light:focus {
+  border: 1px solid $accent-color;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
+          box-shadow: 0 0 0 0.2rem rgba($accent-color, .45);
 }
 
 /*shadows*/
